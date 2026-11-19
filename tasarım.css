@@ -50,6 +50,9 @@ nav
   .Link {
     padding: 10px 16px;
   }
+    .resim{
+    height: 350px;
+  }
 }
 
 @media (min-width: 1200px) {
