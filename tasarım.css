@@ -2,7 +2,7 @@ nav
 {
     display: flex;
     align-items: flex-start;
-    gap: 350px;
+    gap: clamp(16px, 18vw, 350px);
 }
 .Link    
 {
@@ -38,4 +38,28 @@ nav
     border: 1px solid black;
     border-radius: 30px;
     background-color: rgba(187, 177, 173, 0.858);
+}
+
+@media (max-width: 600px) {
+  .Linkler {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Link {
+    padding: 10px 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Linkler {
+    gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Link {
+    padding: 20px 36px;
+  }
 }
