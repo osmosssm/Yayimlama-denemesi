@@ -7,3 +7,15 @@ const sozler = [
 
 const rastgeleSayi = Math.floor(Math.random() * sozler.length);
   document.getElementById("rastgele-soz").textContent = sozler[rastgeleSayi];
+
+document.getElementById("giris").addEventListener("click", function () {
+    const sifre = document.getElementById("sifre").value;
+    if(sifre.trim().toLowerCase() === "Talha".toLowerCase())
+    {
+        window.location.href = "Talha.html"
+    }
+    else
+    {
+        alert("sifre Yanlış")
+    }
+})

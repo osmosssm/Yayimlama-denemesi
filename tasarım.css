@@ -45,6 +45,12 @@ nav
   margin: 0 auto;
 }
 
+#sifre
+{
+  padding: 5px;
+  border-radius: 5px;
+}
+
 @media (max-width: 600px) {
   .Linkler {
     gap: 10px;
