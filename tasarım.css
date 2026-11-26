@@ -4,6 +4,10 @@ nav
     align-items: flex-start;
     gap: clamp(16px, 18vw, 350px);
 }
+a
+{
+  text-decoration: none;
+}
 .Link    
 {
         
