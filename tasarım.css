@@ -41,7 +41,7 @@ a
     padding: 20px;
     border: 1px solid black;
     border-radius: 30px;
-    background-color: rgba(187, 177, 173, 0.858);
+    background-color: rgba(187, 177, 173, 0.6);
 }
 
 #rastgele-soz
@@ -53,6 +53,12 @@ a
 {
   padding: 5px;
   border-radius: 5px;
+}
+.karsılama
+{
+  text-align: center;
+  margin: auto;
+  padding: 15px;
 }
 
 @media (max-width: 600px) {
