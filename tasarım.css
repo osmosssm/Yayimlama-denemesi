@@ -4,10 +4,12 @@ nav
     align-items: flex-start;
     gap: clamp(16px, 18vw, 350px);
 }
+
 a
 {
   text-decoration: none;
 }
+
 .Link    
 {
         
@@ -37,6 +39,7 @@ a
 
 .yazı
 {
+  color: black;
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid black;
@@ -47,6 +50,7 @@ a
 #rastgele-soz
 {
   margin: 0 auto;
+  padding: 35px;
 }
 
 #sifre
@@ -60,6 +64,20 @@ a
   margin: auto;
   padding: 15px;
 }
+
+.kart
+{
+  background-color: rgba(214, 205, 201, 0.4);
+  border-radius: 20px;
+  padding: 50px;
+  color: black;
+  transition:  0.1s ease;
+}
+.kart:hover
+{
+  transform: scale(1.1)
+}
+
 
 @media (max-width: 600px) {
   .Linkler {
