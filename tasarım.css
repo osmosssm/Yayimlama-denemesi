@@ -108,6 +108,10 @@ a
     align-items: center;
     gap: 12px;
   }
+  .kart:hover
+  {
+    transform: scale(1)
+  }
 }
 
 @media (min-width: 1200px) {
