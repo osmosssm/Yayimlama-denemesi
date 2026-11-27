@@ -51,6 +51,7 @@ a
 {
   margin: 0 auto;
   padding: 35px;
+  font-size: 40px;
 }
 
 #sifre
@@ -89,9 +90,23 @@ a
   .Link {
     padding: 10px 16px;
   }
-    .resim{
+
+  .resim
+  {
     height: auto;
     max-width: 100%;
+  }
+
+  #rastgele-soz
+  {
+    font-size: 20px;
+  }
+
+  #kartlar
+  {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
   }
 }
 
